@@ -1,0 +1,89 @@
+body {
+	background-image: url(https://cdn.jsdelivr.net/gh/spirit1431007/cdn@1.6/img/kyotoanimation.png);
+}
+
+video::-webkit-media-controls{ 
+	display:none !important;
+}
+
+.play{
+	position:absolute;
+	left:65%;
+	top:40%;
+}
+
+.pause{
+	position:absolute;
+	left:65%;
+	top:45%;
+}
+
+.volplus{
+	position:absolute;
+	left:65%;
+	top:50%;
+}
+
+.volminus{
+	position:absolute;
+	left:65%;
+	top:55%;
+}
+
+.vol{
+	position:absolute;
+	border-style: solid;
+	border-color: rgba(0,0,0,1.0);
+	text-align: center;
+	height: 20%;
+	width: 30px;
+	left:60%;
+	top:40%;
+}
+
+.volbar{
+	position:absolute;
+	background-color: coral;
+	text-align:center;
+	height: 2%;
+	width:30px;
+	left:60.2%;
+	top:58.2%;
+}
+
+/* 设置外部容器 */
+.wrappers{
+    width:900px;
+    height:6px;
+    margin:100px auto;
+}
+/* 设置进度条容器 */
+.wrapper{
+    width:800px;
+    height:6px;
+    margin-bottom:0;
+    line-height:6px;
+    position:relative;
+    background-color:hsl(108, 100%, 83%);
+}
+/* 设置进度条显示颜色 */
+#progress{
+    width:0;
+    height:100%;
+    background-color:red;
+}
+/* 设置进度条右侧圆点 */
+#progress-bar{
+    width:20px;
+    height:20px;
+    position:absolute;
+    bottom:-6px;
+    border-radius: 50%;
+    background-color:hsl(252, 100%, 83%);
+}
+/* 设置显示百分比 */
+#show{
+    position:relative;
+    left:840px;
+    top:-12px;
+}

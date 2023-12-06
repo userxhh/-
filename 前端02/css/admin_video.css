@@ -1,0 +1,37 @@
+div{
+    height:3px;
+}
+
+.video{
+    position: relative; 
+    left: 25%; 
+    border-style: solid; 
+    text-align: center; 
+    width: 50%;
+}
+
+.video:hover{
+    background-color: brown;
+    width: 60%;
+    left: 20%;
+    height: 30px;
+}
+
+.video_p{
+    position: relative; 
+    left: 25%; 
+    border-style: solid; 
+    text-align: center; 
+    width: 50%;
+}
+
+.video_p:hover{
+    background-color: brown;
+    width: 60%;
+    left: 20%;
+    height: 30px;
+}
+
+.delete{
+    transform: translateY(50%);
+}
